@@ -38,6 +38,10 @@ endmap
 map multiz_debug
 endmap
 
+map lefstation
+	votable
+endmap
+
 ##SKYRAT MAPS##
 
 map blueshift
