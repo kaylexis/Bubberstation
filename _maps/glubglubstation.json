@@ -1,0 +1,31 @@
+{
+	"version": 1,
+	"map_name": "GlubGlub",
+	"map_path": "map_files/GlubGlub",
+	"map_file": "GlubGlubStation.dmm",
+	"shuttles": {
+		"cargo": "cargo_skyrat",
+		"ferry": "ferry_fancy",
+		"whiteship": "whiteship_tram",
+		"emergency": "emergency_tram"
+	},
+	"traits": [
+		{
+			"Up": 1,
+			"Baseturf": "/turf/open/floor/plating/ocean",
+			"Linkage": "null"
+		},
+		{
+			"Down": -1,
+			"Baseturf": "/turf/open/floor/plating/ocean",
+			"Linkage": "null"
+		}
+	],
+	"minetype": "none",
+	"blacklist_file": "iceruinblacklist.txt",
+	"job_changes": {
+		"Captain": {
+			"special_charter": "lab"
+		}
+	}
+}
