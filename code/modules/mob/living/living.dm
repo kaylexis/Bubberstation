@@ -663,7 +663,6 @@
 		return
 	if(new_resting == resting)
 		return
-
 	. = resting
 	resting = new_resting
 	if(new_resting)
