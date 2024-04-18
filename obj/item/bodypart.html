@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <base href="../../" />
+    <link rel="stylesheet" href="dmdoc.css" />
+    <title>&#x2F;obj&#x2F;item&#x2F;bodypart - </title>
+</head>
+<body>
+<header>
+    <a href="index.html"></a> -
+    <a href="index.html#modules">Modules</a> -
+    <a href="index.html#types">Types</a>
+ &mdash; <a href="obj/item/bodypart.html#proc">Proc Details</a></header>
+<main>
+<h1>bodypart <aside>/<a href="obj.html">obj</a>/<a href="obj/item.html">item</a>/<a href="obj/item/bodypart.html">bodypart</a></aside>
+        
+    
+            <a href="https://github.com/kaylexis/Bubberstation/blob/31c1b4aa2892d60f7914478745db54a18dd12f9e/code/datums/wounds/loss.dm#L58">
+        <img src="git.png" width="16" height="16" title="code&#x2F;datums&#x2F;wounds&#x2F;loss.dm 58"/></a></h1>
+
+<table class="summary" cellspacing="0"><tr><td colspan="2"><h2>Procs</h2></td></tr>
+            <tr><th><a href="obj/item/bodypart.html#proc/can_be_grasped">can_be_grasped</a></th><td>If TRUE, the owner of this bodypart can try grabbing it to slow bleeding, as well as various other effects.</td></tr>
+            <tr><th><a href="obj/item/bodypart.html#proc/generate_husk_key">generate_husk_key</a></th><td>Generates a cache key specifically for husks</td></tr>
+            <tr><th><a href="obj/item/bodypart.html#proc/generate_icon_key">generate_icon_key</a></th><td>Called from update_body_parts() these procs handle the limb icon cache.
+the limb icon cache adds an icon_render_key to a human mob, it represents:</td></tr></table><h2 id="proc">Proc Details</h2><h3 id="proc/can_be_grasped"><aside class="declaration">proc </aside>can_be_grasped<aside>() 
+        
+    
+            <a href="https://github.com/kaylexis/Bubberstation/blob/31c1b4aa2892d60f7914478745db54a18dd12f9e/code/modules/mob/living/carbon/carbon_defense.dm#L805">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;carbon&#x2F;carbon_defense.dm 805"/></a></aside>
+        </h3>
+        <p>If TRUE, the owner of this bodypart can try grabbing it to slow bleeding, as well as various other effects.</p><h3 id="proc/generate_husk_key"><aside class="declaration">proc </aside>generate_husk_key<aside>() 
+        
+    
+            <a href="https://github.com/kaylexis/Bubberstation/blob/31c1b4aa2892d60f7914478745db54a18dd12f9e/code/modules/mob/living/carbon/carbon_update_icons.dm#L586">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;carbon&#x2F;carbon_update_icons.dm 586"/></a></aside>
+        </h3>
+        <p>Generates a cache key specifically for husks</p><h3 id="proc/generate_icon_key"><aside class="declaration">proc </aside>generate_icon_key<aside>() 
+        
+    
+            <a href="https://github.com/kaylexis/Bubberstation/blob/31c1b4aa2892d60f7914478745db54a18dd12f9e/code/modules/mob/living/carbon/carbon_update_icons.dm#L565">
+        <img src="git.png" width="16" height="16" title="code&#x2F;modules&#x2F;mob&#x2F;living&#x2F;carbon&#x2F;carbon_update_icons.dm 565"/></a></aside>
+        </h3>
+        <p>Called from update_body_parts() these procs handle the limb icon cache.
+the limb icon cache adds an icon_render_key to a human mob, it represents:</p>
+<ul>
+<li>Gender, if applicable</li>
+<li>The ID of the limb</li>
+<li>Draw color, if applicable
+These procs only store limbs as to increase the number of matching icon_render_keys
+This cache exists because drawing 6/7 icons for humans constantly is quite a waste
+See RemieRichards on irc.rizon.net #coderbus (RIP remie :sob:)</li>
+</ul></main>
+<footer>
+    tgstation.dme
+    <a href="https://github.com/kaylexis/Bubberstation/tree/31c1b4aa2892d60f7914478745db54a18dd12f9e">31c1b4a</a>
+        (master) &mdash; <a href="https://github.com/SpaceManiac/SpacemanDMM/blob/master/crates/dmdoc/README.md">dmdoc 1.8.0</a></footer>
+</body>
+</html>
